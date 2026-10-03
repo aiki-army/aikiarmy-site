@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aiki Army | Reliable remote teams for growing U.S. businesses</title>
+<meta name="description" content="Aiki Army recruits, screens, and places skilled remote professionals for growing U.S. businesses, with a specialty in hospitality reservations and guest support.">
+<meta property="og:title" content="Aiki Army | Hard work. Seamless fit.">
+<meta property="og:description" content="Reliable remote teams, without the cost and complexity of traditional hiring.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aikiarmy.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+<style>
+:root {
+  --midnight: #1F2A27;
+  --midnight-deep: #1F2A27;
+  --ink: #1F2A27;
+  --paper: #FFFFFF;
+  --soft: #F3F7F4;
+  --sand: #E9F1EC;
+  --line: #DDE6E0;
+  --white: #FFFFFF;
+  --accent: #2F7D5B;
+  --muted: #4C5A55;
+  --on-dark: #4C5A55;
+  --label: #2F6B50;
+  --display: 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif;
+  --body: 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { margin: 0; font-family: var(--body); font-size: 18px; line-height: 1.6; color: var(--ink); background: var(--paper); }
+h1, h2, h3, p, ul, ol { margin: 0; }
+ul, ol { padding: 0; list-style: none; }
+a { color: var(--midnight); }
+a:hover { color: #4C5A55; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+.wrap { max-width: 1160px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+.display { font-family: var(--display); font-weight: 800; letter-spacing: -0.02em; line-height: 1.08; }
+.h2 { font-size: clamp(2rem, 4.5vw, 3.25rem); }
+.label { font-size: 15px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--label); }
+.muted { color: var(--muted); }
+.stack { display: flex; flex-direction: column; gap: 20px; }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; min-height: 56px; padding: 0 28px; border-radius: 999px; font: inherit; font-weight: 600; font-size: 18px; text-decoration: none; cursor: pointer; border: none; }
+.btn-accent { background: var(--accent); color: var(--white); }
+.btn-accent:hover { background: #276B4D; color: var(--white); }
+.btn-ghost { border: 2px solid var(--ink); color: var(--ink); }
+.btn-ghost:hover { background: var(--ink); color: var(--white); }
+
+.site-header { position: sticky; top: 0; z-index: 10; background: var(--white); color: var(--ink); border-bottom: 1px solid var(--line); }
+.site-header .wrap { padding-top: 24px; padding-bottom: 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 56px; }
+.wordmark { font-family: var(--display); font-weight: 700; font-size: 24px; letter-spacing: 0.02em; color: var(--ink); text-decoration: none; min-height: 44px; display: flex; align-items: center; }
+.wordmark img { height: 56px; width: auto; display: block; }
+.wordmark:hover { color: var(--ink); }
+.nav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 40px; font-size: 16px; font-weight: 600; }
+.nav a { color: var(--ink); text-decoration: none; min-height: 44px; display: flex; align-items: center; }
+.nav a:hover { color: #6A6C70; }
+.nav a.nav-cta { background: var(--accent); color: var(--white); font-weight: 700; padding: 0 22px; border-radius: 999px; }
+.nav a.nav-cta:hover { background: #276B4D; color: var(--white); }
+
+.hero { background: var(--soft); color: var(--ink); }
+.hero .wrap { padding-top: 112px; padding-bottom: 128px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px 64px; }
+.hero-text { flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 28px; }
+.hero h1 { font-size: clamp(2.25rem, 4.6vw, 3.6rem); letter-spacing: -0.025em; }
+.hero p.lead { font-size: clamp(1.05rem, 1.6vw, 1.2rem); color: var(--muted); }
+.hero p.lead.strong { font-weight: 700; color: var(--ink); }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; padding-top: 16px; }
+/* Hero photo: upload a file named hero.jpg next to index.html and it appears here */
+.hero-photo { flex: 1 1 420px; min-width: 0; aspect-ratio: 958 / 784; border-radius: 28px; background: #E3ECE6 url('hero.jpg') center / cover no-repeat; }
+@media (max-width: 700px) { .hero .wrap { padding-top: 64px; padding-bottom: 80px; } .hero-photo { flex: 1 1 420px; min-width: 0; aspect-ratio: 958 / 784; border-radius: 28px; background: #E3ECE6 url('hero.jpg') center / cover no-repeat; } }
+
+.section .wrap { padding-top: 128px; padding-bottom: 128px; }
+@media (max-width: 700px) { .section .wrap { padding-top: 80px; padding-bottom: 80px; } }
+.split { display: flex; flex-wrap: wrap; gap: 48px 72px; align-items: flex-start; }
+.split > * { min-width: 0; }
+.split-text { flex: 1 1 380px; }
+.split-card { flex: 1 1 420px; }
+
+.card { background: var(--white); border: 1px solid var(--line); border-radius: 20px; padding: 36px; }
+.card h3 { font-family: var(--display); font-weight: 700; font-size: 22px; line-height: 1.25; }
+.checks { display: flex; flex-direction: column; gap: 14px; }
+.checks li { display: flex; gap: 14px; align-items: flex-start; }
+.checks svg { flex: none; margin-top: 3px; }
+
+.roles { background: var(--soft); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.roles .wrap { padding-top: 112px; padding-bottom: 112px; display: flex; flex-direction: column; gap: 36px; }
+.roles h2 { font-size: clamp(1.75rem, 3.5vw, 2.5rem); }
+.role-list { display: flex; flex-wrap: wrap; gap: 20px; }
+.role-list li { flex: 1 1 230px; min-width: 0; background: var(--white); border: 1px solid var(--line); border-radius: 20px; padding: 28px; font-family: var(--display); font-weight: 500; font-size: 21px; line-height: 1.3; }
+
+.how .wrap { display: flex; flex-direction: column; gap: 44px; }
+.steps { display: flex; flex-wrap: wrap; gap: 32px 28px; }
+.steps li { flex: 1 1 230px; min-width: 0; display: flex; flex-direction: column; gap: 14px; background: var(--soft); border-radius: 20px; padding: 28px; }
+.steps .num { color: var(--label); font-family: var(--display); font-weight: 700; font-size: 44px; line-height: 1; }
+
+.why .wrap { padding-top: 0; }
+.why-box { background: var(--sand); border-radius: 28px; padding: clamp(28px, 6vw, 72px); display: flex; flex-direction: column; gap: 36px; }
+.why-intro { max-width: 720px; display: flex; flex-direction: column; gap: 16px; }
+.meanings { display: flex; flex-wrap: wrap; gap: 24px; }
+.meaning { flex: 1 1 340px; min-width: 0; background: var(--white); border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 12px; }
+.meaning h3 { font-family: var(--display); font-weight: 700; font-size: 28px; line-height: 1.15; }
+.tagline { font-size: clamp(1.5rem, 3.5vw, 2.25rem); line-height: 1.15; letter-spacing: -0.01em; }
+
+.contact { background: var(--soft); color: var(--ink); }
+.contact p { color: var(--muted); }
+.contact p.lead { font-size: clamp(1.05rem, 2vw, 1.25rem); }
+.contact p a { color: var(--ink); font-weight: 600; }
+.form { background: var(--white); color: var(--ink); border: 1px solid var(--line); border-radius: 24px; padding: clamp(24px, 4vw, 40px); display: flex; flex-direction: column; gap: 20px; }
+.field { display: flex; flex-direction: column; gap: 8px; }
+.field label { font-size: 16px; font-weight: 600; }
+.field input, .field select, .field textarea { font: inherit; color: var(--ink); background: var(--white); border: 1.5px solid #6B7686; border-radius: 10px; padding: 0 14px; min-height: 50px; width: 100%; }
+.field textarea { padding: 12px 14px; resize: vertical; }
+.hidden { display: none; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.hero-form { display: flex; flex-wrap: wrap; gap: 12px; padding-top: 16px; }
+.hero-form input[type="email"] { flex: 1 1 240px; min-width: 0; font: inherit; color: var(--ink); background: var(--white); border: 1.5px solid #7F938A; border-radius: 999px; padding: 0 22px; min-height: 56px; }
+.text-link { align-self: flex-start; display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; color: var(--ink); }
+.chips { display: flex; flex-wrap: wrap; gap: 10px; padding-top: 8px; }
+.chips li { background: #E9F1EC; font-size: 16px; font-weight: 600; padding: 8px 18px; border-radius: 999px; }
+
+.site-footer { background: var(--midnight-deep); color: #B9BBBF; }
+.site-footer .wrap { padding-top: 32px; padding-bottom: 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px; font-size: 16px; }
+.site-footer .wordmark-small { font-family: var(--display); font-weight: 700; letter-spacing: 0.02em; color: var(--white); }
+.site-footer a { color: #B9BBBF; }
+.site-footer a:hover { color: var(--white); }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="#top"><img src="logo.png" alt="Aiki Army" width="160" height="56"></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#hospitality">Hospitality</a>
+      <a href="#roles">Roles</a>
+      <a href="#how">How it works</a>
+      <a href="#why">Why Aiki</a>
+      <a class="nav-cta" href="#contact">Send a message</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-text">
+      <p class="label">Hard work. Seamless fit.</p>
+      <h1 class="display">Reliable remote teams, without the cost and complexity of traditional hiring.</h1>
+      <p class="lead">Aiki Army helps growing U.S. businesses recruit, screen, and place skilled remote professionals who work your hours, communicate fluently in English, and integrate directly into your operation.</p>
+      <p class="lead strong">You get a dedicated team member, not a rotating call center.</p>
+      <form class="hero-form" action="https://formsubmit.co/jor@aikiarmy.com" method="POST">
+        <input type="hidden" name="_subject" value="Quick inquiry from aikiarmy.com">
+        <input type="hidden" name="_next" value="https://aikiarmy.com/thanks.html">
+        <input type="hidden" name="_autoresponse" value="Thank you for reaching out to Aiki Army. This is an automatic confirmation that we received your message. Our team is reviewing the role you need. A member of our team will reach out within one business day to schedule a short call about your staffing needs. If you have more details to add, email jor@aikiarmy.com. The Aiki Army Team, aikiarmy.com">
+        <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <label class="sr-only" for="h-email">Business email</label>
+        <input id="h-email" name="email" type="email" placeholder="Your business email" autocomplete="email" required>
+        <button class="btn btn-accent" type="submit">Get started</button>
+      </form>
+      <a class="text-link" href="#how">See how it works</a>
+    </div>
+    <div class="hero-photo" role="img" aria-label="Aiki Army remote professional on a headset, with a lakeside villa, a hotel room and a forest cabin"></div>
+  </div>
+</section>
+
+<section class="section" id="hospitality">
+  <div class="wrap split">
+    <div class="split-text stack">
+      <p class="label">Our specialty</p>
+      <h2 class="display h2">Hospitality</h2>
+      <p class="muted">Boutique hotels, vacation rental operators, campgrounds, and cabin businesses can lose bookings to missed calls, delayed responses, and overwhelmed staff.</p>
+      <p><strong>Aiki Army helps solve that.</strong></p>
+      <p class="muted">So your team can spend less time managing the inbox and phone, and more time running and growing the property.</p>
+      <ul class="chips">
+        <li>Boutique hotels</li>
+        <li>Vacation rentals</li>
+        <li>Campgrounds</li>
+        <li>Cabin businesses</li>
+      </ul>
+    </div>
+    <div class="split-card card stack">
+      <h3>Our remote reservation and guest-support professionals can handle:</h3>
+      <ul class="checks">
+        <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1F2A27" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Booking inquiries and reservation support</span></li>
+        <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1F2A27" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Guest messages and follow-ups</span></li>
+        <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1F2A27" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Confirmations and pre-arrival communication</span></li>
+        <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1F2A27" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Check-in questions and guest assistance</span></li>
+        <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1F2A27" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Customer service and administrative support</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="roles" id="roles">
+  <div class="wrap">
+    <h2 class="display">We also place</h2>
+    <ul class="role-list">
+      <li>Executive and administrative assistants</li>
+      <li>Customer support representatives</li>
+      <li>Sales and appointment-setting representatives</li>
+      <li>Marketing and social media support</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section how" id="how">
+  <div class="wrap">
+    <h2 class="display h2">How it works</h2>
+    <ol class="steps">
+      <li><span class="num" aria-hidden="true">1</span><span>Tell us the role you need.</span></li>
+      <li><span class="num" aria-hidden="true">2</span><span>We source and vet candidates through interviews and skills assessments.</span></li>
+      <li><span class="num" aria-hidden="true">3</span><span>You meet a shortlist of qualified candidates and choose who fits your team.</span></li>
+      <li><span class="num" aria-hidden="true">4</span><span>We handle the contracts and payroll so you can focus on results.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section why" id="why">
+  <div class="wrap">
+    <div class="why-box">
+      <div class="why-intro">
+        <h2 class="display h2">Why Aiki Army?</h2>
+        <p>Aiki represents two ideas at the heart of our company.</p>
+      </div>
+      <div class="meanings">
+        <div class="meaning">
+          <p class="label">In Hausa</p>
+          <h3>Aiki means work.</h3>
+          <p class="muted">And that's what we deliver: real work, done well.</p>
+        </div>
+        <div class="meaning">
+          <p class="label">In Aikido</p>
+          <h3>Aiki means blending with energy.</h3>
+          <p class="muted">It conveys the idea of harmonizing rather than fighting against it. That's how we want our professionals to join your operation: integrating with your existing team, adapting to your workflow, and helping everything run more smoothly.</p>
+        </div>
+      </div>
+      <p class="display tagline">Hard work. Seamless fit.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="wrap split">
+    <div class="split-text stack">
+      <h2 class="display h2">Send Aiki Army a message.</h2>
+      <p class="lead">Looking to strengthen your team without adding the overhead of traditional hiring?</p>
+      <p>Or email us directly at <a href="mailto:jor@aikiarmy.com">jor@aikiarmy.com</a></p>
+    </div>
+    <form class="split-card form" action="https://formsubmit.co/jor@aikiarmy.com" method="POST">
+      <input type="hidden" name="_subject" value="New inquiry from aikiarmy.com">
+      <input type="hidden" name="_next" value="https://aikiarmy.com/thanks.html">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_autoresponse" value="Thank you for reaching out to Aiki Army. This is an automatic confirmation that we received your message. Our team is reviewing the role you need. A member of our team will reach out within one business day to schedule a short call about your staffing needs. If you have more details to add, email jor@aikiarmy.com. The Aiki Army Team, aikiarmy.com">
+      <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="field">
+        <label for="f-name">Name</label>
+        <input id="f-name" name="name" type="text" autocomplete="name" required>
+      </div>
+      <div class="field">
+        <label for="f-email">Business email</label>
+        <input id="f-email" name="email" type="email" autocomplete="email" required>
+      </div>
+      <div class="field">
+        <label for="f-role">Role you need</label>
+        <select id="f-role" name="role">
+          <option>Reservations and guest support</option>
+          <option>Executive or administrative assistant</option>
+          <option>Customer support</option>
+          <option>Sales and appointment setting</option>
+          <option>Marketing and social media</option>
+          <option>Something else</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-msg">Message</label>
+        <textarea id="f-msg" name="message" rows="4"></textarea>
+      </div>
+      <button class="btn btn-accent" type="submit">Send message</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span class="wordmark-small">AIKI ARMY</span>
+    <span>Remote teams for growing U.S. businesses</span>
+    <a href="mailto:jor@aikiarmy.com">jor@aikiarmy.com</a>
+  </div>
+</footer>
+
+</body>
+</html>
