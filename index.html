@@ -23,7 +23,7 @@
   --line: #DDE6E0;
   --white: #FFFFFF;
   --accent: #2F7D5B;
-  --muted: #4C5A55;
+  --muted: #2F4039;
   --on-dark: #4C5A55;
   --label: #2F6B50;
   --display: 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif;
@@ -43,7 +43,7 @@ a:hover { color: #4C5A55; }
 .display { font-family: var(--display); font-weight: 800; letter-spacing: -0.02em; line-height: 1.08; }
 .h2 { font-size: clamp(2rem, 4.5vw, 3.25rem); }
 .label { font-size: 15px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--label); }
-.muted { color: var(--muted); }
+.muted { color: var(--muted); font-weight: 500; }
 .stack { display: flex; flex-direction: column; gap: 20px; }
 
 .btn { display: inline-flex; align-items: center; justify-content: center; min-height: 56px; padding: 0 28px; border-radius: 999px; font: inherit; font-weight: 600; font-size: 18px; text-decoration: none; cursor: pointer; border: none; }
@@ -67,7 +67,7 @@ a:hover { color: #4C5A55; }
 .hero .wrap { padding-top: 112px; padding-bottom: 128px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px 64px; }
 .hero-text { flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 28px; }
 .hero h1 { font-size: clamp(2.25rem, 4.6vw, 3.6rem); letter-spacing: -0.025em; }
-.hero p.lead { font-size: clamp(1.05rem, 1.6vw, 1.2rem); color: #2F4039; }
+.hero p.lead { font-size: clamp(1.05rem, 1.6vw, 1.2rem); color: #2F4039; font-weight: 500; }
 .hero p.lead.strong { font-weight: 700; color: var(--ink); }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 16px; padding-top: 16px; }
 /* Hero photo: upload a file named hero.jpg next to index.html and it appears here */
@@ -107,7 +107,7 @@ a:hover { color: #4C5A55; }
 .tagline { font-size: clamp(1.5rem, 3.5vw, 2.25rem); line-height: 1.15; letter-spacing: -0.01em; }
 
 .contact { background: var(--soft); color: var(--ink); }
-.contact p { color: var(--muted); }
+.contact p { color: var(--muted); font-weight: 500; }
 .contact p.lead { font-size: clamp(1.05rem, 2vw, 1.25rem); }
 .contact p a { color: var(--ink); font-weight: 600; }
 .form { background: var(--white); color: var(--ink); border: 1px solid var(--line); border-radius: 24px; padding: clamp(24px, 4vw, 40px); display: flex; flex-direction: column; gap: 20px; }
