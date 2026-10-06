@@ -24,6 +24,9 @@ h1 { font-family: 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif; font-w
 .label { font-size: 15px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #2F6B50; }
 .btn { align-self: flex-start; display: inline-flex; align-items: center; min-height: 52px; padding: 0 24px; border-radius: 999px; background: #2F7D5B; color: #FFFFFF; font-weight: 600; text-decoration: none; }
 .btn:hover { background: #276B4D; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.btn-outline { background: #FFFFFF; color: #2F6B50; border: 2px solid #2F7D5B; }
+.btn-outline:hover { background: #2F7D5B; color: #FFFFFF; }
 </style>
 </head>
 <body>
@@ -38,7 +41,11 @@ h1 { font-family: 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif; font-w
       <p>A member of our team will reach out within one business day to schedule a short call about your staffing needs.</p>
     </div>
     <p class="muted">Have more details to add? Email us at <a href="mailto:jor@aikiarmy.com"><strong>jor@aikiarmy.com</strong></a></p>
-    <a class="btn" href="/">Back to the home page</a>
+    <p class="muted">Want to skip the wait? Book a time to talk now.</p>
+    <div class="actions">
+      <a class="btn" href="https://calendly.com/jor-aikiarmy/fit-call" target="_blank" rel="noopener">Book a call</a>
+      <a class="btn btn-outline" href="/">Back to the home page</a>
+    </div>
   </div>
 </main>
 </body>

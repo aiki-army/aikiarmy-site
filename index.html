@@ -128,6 +128,10 @@ a:hover { color: #4C5A55; }
 .site-footer .wordmark-small { font-family: var(--display); font-weight: 700; letter-spacing: 0.02em; color: var(--white); }
 .site-footer a { color: #B9BBBF; }
 .site-footer a:hover { color: var(--white); }
+.btn-outline { align-self: flex-start; min-height: 52px; border: 2px solid var(--accent); color: var(--label); background: var(--white); }
+.btn-outline:hover { background: var(--accent); color: var(--white); }
+.hero-links { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; }
+.hero-links .text-link { align-self: center; }
 </style>
 </head>
 <body>
@@ -162,7 +166,10 @@ a:hover { color: #4C5A55; }
         <input id="h-email" name="email" type="email" placeholder="Your business email" autocomplete="email" required>
         <button class="btn btn-accent" type="submit">Get started</button>
       </form>
-      <a class="text-link" href="#how">See how it works</a>
+      <div class="hero-links">
+        <a class="btn btn-outline" href="https://calendly.com/jor-aikiarmy/fit-call" target="_blank" rel="noopener">Book a call</a>
+        <a class="text-link" href="#how">See how it works</a>
+      </div>
     </div>
     <div class="hero-photo" role="img" aria-label="Aiki Army remote professional on a headset, with a lakeside villa, a hotel room and a forest cabin"></div>
   </div>
@@ -250,6 +257,8 @@ a:hover { color: #4C5A55; }
       <h2 class="display h2">Send Aiki Army a message.</h2>
       <p class="lead">Looking to strengthen your team without adding the overhead of traditional hiring?</p>
       <p>Or email us directly at <a href="mailto:jor@aikiarmy.com">jor@aikiarmy.com</a></p>
+      <p>Prefer to talk it through? Pick a time that suits you.</p>
+      <a class="btn btn-outline" href="https://calendly.com/jor-aikiarmy/fit-call" target="_blank" rel="noopener">Book a call</a>
     </div>
     <form class="split-card form" action="https://formsubmit.co/jor@aikiarmy.com" method="POST">
       <input type="hidden" name="_subject" value="New inquiry from aikiarmy.com">
